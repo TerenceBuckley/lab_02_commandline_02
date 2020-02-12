@@ -167,7 +167,7 @@ curl -o mtec1003 -lab-02.zip
 14. We learned a command to uncompress a .zip file.  Use it to extract the files and folders from the file you just downloaded.
 
 Write down the command that you used to uncompress the file.
-----------
+unzip mtec1002-lab-02.zip
 
 
 
@@ -175,7 +175,15 @@ Write down the command that you used to uncompress the file.
 15. Change to the directory that was just created.  List the contents (of the directory that was extracted from the labs .zip file). 
 
 Copy and paste the output below.
-----------
+	mtec1002
+Applications		Public			mtec1002-lab-02
+Desktop			QLData			mtec1002-lab-02.zip
+Documents		Things			mtec1003
+Downloads		__MACOSX		pymel.log
+Library			ipe.properties		xgen
+Movies			isus
+Music			lab_01_commandline_01
+
 
 
 
@@ -187,6 +195,18 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 
 Copy and paste the output below.
 ----------
+		etc
+Developer			home
+Library				installer.failurerequests
+Network				net
+Quarantine			opt
+SDKs				private
+System				resources:Library
+Users				revs.json
+Volumes				sbin
+bin				tmp
+cmake				usr
+dev				var
 
 
 
