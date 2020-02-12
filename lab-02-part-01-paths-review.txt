@@ -62,7 +62,7 @@ mkdir /Users/students/Desktop/more-stuff
 
 ==========
 10. If you're in your Desktop directory, how would you create a new directory on your desktop called even-more-stuff?  Write your command below.
-mkdir even-more-stuff÷
+mkdir even-more-stuff
 
 
 
@@ -85,8 +85,7 @@ cd -
 
 ==========
 14. How would you show all of the files (including hidden ones) with detailed (long) information that are on you're Desktop if you're in your home directory?  Write your command below.
-ls -a/
-
+ls -al
 ==========
 Optional Challenge:
 
