@@ -230,7 +230,7 @@ $ tar -cvf stuff.tar stuff
 List the files in the directory you're currently in (which should be home).  
 
 Copy and paste the output below.
-----------
+---------:~ terence.buckley30$
 
 
 
@@ -240,7 +240,7 @@ Copy and paste the output below.
 $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
-----------
+--Cannot stat: No such file or directory----Error exit delayed from previous errors.--
 
 
 
@@ -248,7 +248,12 @@ Copy and paste the output below.
 20. List the files in the directory you're currently in (which should be home).  
 
 Copy and paste the output below. (It should contain stuff.tar)
-----------
+-----.			Desktop			Pictures
+..			Documents		Public
+.CFUserTextEncoding	Downloads		hello.txt
+.Trash			Library			isus
+.bash_sessions		Movies			stuff.tar
+Applications		Music----
 
 
 
@@ -258,7 +263,12 @@ Copy and paste the output below. (It should contain stuff.tar)
 gzip stuff.tar
 
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
-----------
+---------.			Desktop			Pictures
+..			Documents		Public
+.CFUserTextEncoding	Downloads		hello.txt
+.Trash			Library			isus
+.bash_sessions		Movies			stuff.tar.gz
+Applications		Music
 
 
 
@@ -272,8 +282,9 @@ MAKE SURE YOU MOVE THE FILE THAT ENDS IN .gz!
 Change your directory to mtec1002-lab-02.  
 
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
-----------
-
+-------.Applications	Downloads	Music		hello.txt
+Desktop		Library		Pictures	isus
+Documents	Movies		Public		mtec1002-lab-02
 
 ==========
 23. You should be in the lab directory.  Let's uncompress the file.
@@ -281,7 +292,8 @@ List the files.  Copy and paste the output below (stuff.tar.gz should be there).
 $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
-----------
+tar: Error opening archive: Failed to open 'stuff.tar.gz'
+
 
 
 
@@ -300,10 +312,10 @@ http://foureyes.github.io/mtec1002/labs/02/secret.tar.gz
 REMEMBER to use the -o flag and specifiy a filenmae that ends in .tar.gz
 
 Write out the commands that you used to do this.
-----------
+curl -o filename.txt http://foureyes.github.io/mtec1002/labs/02/secret.tar.gz
 
 
 
 ==========
 26. How many files were in the archive.  What were their names?  Write out your answers below.
-----------
+There wern't any files
